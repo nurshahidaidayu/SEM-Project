@@ -104,4 +104,12 @@ Public Class CheckIn
 
     End Sub
 
+    Private Sub DateTimePicker1_ValueChanged(sender As Object, e As EventArgs) Handles DateTimePicker1.ValueChanged
+        Dim dt1 As DateTime = Convert.ToDateTime(DateTimePicker1.Value.ToString("dd/MM/yyy"))
+
+        Dim dt2 As DateTime = Convert.ToDateTime(DateTimePicker2.Value.ToString("dd/MM/yyy"))
+
+        Dim ts As TimeSpan = dt2.Subtract(dt1)
+        text_total_days.Text = Convert.ToInt32(ts.Days)
+    End Sub
 End Class

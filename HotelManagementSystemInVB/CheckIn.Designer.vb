@@ -245,6 +245,7 @@ Partial Class CheckIn
         Me.text_total_days.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.text_total_days.Location = New System.Drawing.Point(544, 199)
         Me.text_total_days.Name = "text_total_days"
+        Me.text_total_days.ReadOnly = True
         Me.text_total_days.Size = New System.Drawing.Size(153, 28)
         Me.text_total_days.TabIndex = 28
         '
