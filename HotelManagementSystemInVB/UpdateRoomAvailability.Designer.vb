@@ -43,7 +43,7 @@ Partial Class UpdateRoomAvailability
         '
         Me.Button1.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(165, 443)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(5)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(92, 32)
         Me.Button1.TabIndex = 27
@@ -58,7 +58,7 @@ Partial Class UpdateRoomAvailability
         Me.ComboBox1.ImeMode = System.Windows.Forms.ImeMode.NoControl
         Me.ComboBox1.Items.AddRange(New Object() {"0", "1"})
         Me.ComboBox1.Location = New System.Drawing.Point(307, 374)
-        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(5)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(116, 29)
         Me.ComboBox1.TabIndex = 26
@@ -107,7 +107,7 @@ Partial Class UpdateRoomAvailability
         '
         Me.text_r_no.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.text_r_no.Location = New System.Drawing.Point(307, 104)
-        Me.text_r_no.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.text_r_no.Margin = New System.Windows.Forms.Padding(5)
         Me.text_r_no.Name = "text_r_no"
         Me.text_r_no.Size = New System.Drawing.Size(104, 28)
         Me.text_r_no.TabIndex = 21
@@ -182,7 +182,7 @@ Partial Class UpdateRoomAvailability
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Palatino Linotype", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(236, 39)
+        Me.Label1.Location = New System.Drawing.Point(185, 43)
         Me.Label1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(265, 28)
@@ -221,7 +221,7 @@ Partial Class UpdateRoomAvailability
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.Margin = New System.Windows.Forms.Padding(5)
         Me.Name = "UpdateRoomAvailability"
         Me.Text = "UpdateRoomAvailability"
         Me.ResumeLayout(False)

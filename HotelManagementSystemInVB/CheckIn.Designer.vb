@@ -253,30 +253,30 @@ Partial Class CheckIn
         '
         Me.button_insert.Enabled = False
         Me.button_insert.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.button_insert.Location = New System.Drawing.Point(209, 372)
+        Me.button_insert.Location = New System.Drawing.Point(203, 372)
         Me.button_insert.Name = "button_insert"
-        Me.button_insert.Size = New System.Drawing.Size(76, 31)
+        Me.button_insert.Size = New System.Drawing.Size(112, 31)
         Me.button_insert.TabIndex = 29
-        Me.button_insert.Text = "Insert"
+        Me.button_insert.Text = "Check In"
         Me.button_insert.UseVisualStyleBackColor = True
         '
         'button_update
         '
         Me.button_update.Enabled = False
         Me.button_update.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.button_update.Location = New System.Drawing.Point(348, 372)
+        Me.button_update.Location = New System.Drawing.Point(339, 372)
         Me.button_update.Name = "button_update"
-        Me.button_update.Size = New System.Drawing.Size(76, 31)
+        Me.button_update.Size = New System.Drawing.Size(112, 31)
         Me.button_update.TabIndex = 30
-        Me.button_update.Text = "Update"
+        Me.button_update.Text = "Check Out"
         Me.button_update.UseVisualStyleBackColor = True
         '
         'button_reset
         '
         Me.button_reset.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.button_reset.Location = New System.Drawing.Point(492, 372)
+        Me.button_reset.Location = New System.Drawing.Point(475, 372)
         Me.button_reset.Name = "button_reset"
-        Me.button_reset.Size = New System.Drawing.Size(76, 31)
+        Me.button_reset.Size = New System.Drawing.Size(112, 31)
         Me.button_reset.TabIndex = 31
         Me.button_reset.Text = "Reset"
         Me.button_reset.UseVisualStyleBackColor = True

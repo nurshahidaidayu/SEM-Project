@@ -35,7 +35,7 @@ Public Class UpdateRoomAvailability
         com = New SqlCommand(" update room set r_availability='" + ComboBox1.Text + "' where r_no= '" & text_r_no.Text & "'", con)
         con.Open()
         com.ExecuteNonQuery()
-        MsgBox("Check Out Data updated successfully..")
+        MsgBox("Room's availability is updated successfully.")
         Hide()
         con.Close()
     End Sub
