@@ -9,7 +9,7 @@ Public Class CheckIn
     Dim getemp As String
     Dim dr As SqlDataReader
 
-
+    
 
     Private Sub Button1_Click(sender As System.Object, e As System.EventArgs) Handles button_insert.Click
         con = New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\MS\Downloads\SEM project\HotelManagementSystemInVB\HotelManagementSystemInVB\HotelManagementSystemInVB\Database1.mdf;Integrated Security=True")
